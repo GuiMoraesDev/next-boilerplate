@@ -6,6 +6,9 @@
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended"
   ],
+  "env": {
+    "jest": true
+  },
   "plugins": ["@typescript-eslint"],
   "rules": {
     "react-hooks/rules-of-hooks": "error",
