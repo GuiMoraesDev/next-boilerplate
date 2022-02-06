@@ -1,7 +1,28 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Main /> should render correctly 1`] = `
-<h1>
-  react advanced
-</h1>
+<main
+  class="styles__Container-sc-dzx1ao-0 jEcmhg"
+>
+  <img
+    alt="pink hex with an withe atom centralized"
+    class="styles__Logo-sc-dzx1ao-1 fqmfdP"
+    src="/img/logo.svg"
+  />
+  <h1
+    class="styles__Title-sc-dzx1ao-2 iwViSR"
+  >
+    Advanced React
+  </h1>
+  <h2
+    class="styles__Description-sc-dzx1ao-3 filQvO"
+  >
+    Typescript, ReactJs, NextJs and Styled Components
+  </h2>
+  <img
+    alt="A developer sit in a workstation with three screens in front of him"
+    class="styles__Illustration-sc-dzx1ao-4 dZrGPP"
+    src="/img/hero-illustration.svg"
+  />
+</main>
 `;
