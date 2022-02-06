@@ -1,13 +1,4 @@
 {
-  "name": "boilerplate",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "prepare": "husky install"
-  },
   "dependencies": {
     "next": "12.0.10",
     "react": "17.0.2",
@@ -26,5 +17,19 @@
     "lint-staged": "^12.3.3",
     "prettier": "^2.5.1",
     "typescript": "4.5.5"
+  },
+  "lint-staged": {
+    "src/**/*.{ts,tsx}": [
+      "yarn eslint --max-warnings=0 --fix"
+    ]
+  },
+  "name": "boilerplate",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "lint": "next lint",
+    "prepare": "husky install",
+    "start": "next start"
   }
 }
