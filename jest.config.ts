@@ -5,7 +5,7 @@ const config: Config.InitialOptions = {
   testPathIgnorePatterns: ['/node_modules/', '/.next/'],
   collectCoverage: true,
   collectCoverageFrom: ['src/**/*.ts(x)'],
-  setupFilesAfterEnv: ['<rootdir>/.jest/setup.ts'],
+  setupFilesAfterEnv: ['<rootDir>/.jest/setup.ts'],
 };
 
 export default config;
