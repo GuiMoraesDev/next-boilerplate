@@ -1,5 +1,5 @@
 {
-  "name": "boilerplate",
+  "name": "next-boilerplate",
   "private": true,
   "scripts": {
     "build": "next build",
