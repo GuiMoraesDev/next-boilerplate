@@ -1,6 +1,9 @@
 import * as Styles from './styles';
 
-const Main = () => {
+const Main = ({
+  title = 'Advanced React',
+  description = 'Typescript, ReactJs, NextJs and Styled Components',
+}) => {
   return (
     <Styles.Container>
       <Styles.Logo
@@ -8,11 +11,9 @@ const Main = () => {
         alt="pink hex with an withe atom centralized"
       />
 
-      <Styles.Title>Advanced React</Styles.Title>
+      <Styles.Title>{title}</Styles.Title>
 
-      <Styles.Description>
-        Typescript, ReactJs, NextJs and Styled Components
-      </Styles.Description>
+      <Styles.Description>{description}</Styles.Description>
 
       <Styles.Illustration
         src="/img/hero-illustration.svg"
