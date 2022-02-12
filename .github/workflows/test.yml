@@ -13,16 +13,13 @@ jobs:
     - name: Run tests
       run: yarn test
 
-    - name: List files
-      run: ls -la
-
     - uses: actions/checkout@master
 
     - uses: codecov/codecov-action@v2
       with:
         token: ${{ secrets.CODECOV_TOKEN }}
         directory: ./coverage
-        files: clover.xml
+        files: ./clover.xml
         flags: unittests # optional
         name: codecov-umbrella # optional
         fail_ci_if_error: true # optional (default = false)
